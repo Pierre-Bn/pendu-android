@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/game_guess_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUESS_COUNT"
+        app:layout_constraintBottom_toTopOf="@+id/game_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_width="151dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/game_display_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY_WORD"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_image" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/game_btn_A"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/game_btn_B"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/game_btn_C"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/game_btn_D"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/game_btn_E"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/game_btn_F"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/game_btn_G"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/game_btn_H"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/game_btn_I"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="I" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/game_btn_J"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/game_btn_K"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/game_btn_L"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="L" />
+
+            <Button
+                android:id="@+id/game_btn_M"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/game_btn_N"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/game_btn_O"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/game_btn_P"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="P" />
+
+            <Button
+                android:id="@+id/game_btn_Q"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/game_btn_R"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="R" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/game_btn_S"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/game_btn_T"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/game_btn_U"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/game_btn_V"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/game_btn_W"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/game_btn_X"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/game_btn_Y"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/game_btn_Z"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="Z" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

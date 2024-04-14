@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProtoPendu</string>
+    <string name="menu_btn_hard_label">Difficile</string>
+    <string name="menu_main_label">Le jeu du pendu! La difficulté détermine le nombre de lettres qui seront déjà révélées au début du jeu. Finissez les modes les plus faciles pour débloquer les plus durs!</string>
+    <string name="app_logo_content_label">app_logo</string>
+    <string name="menu_btn_normal_label">Normal</string>
+    <string name="menu_btn_easy_label">Facile</string>
+    <string name="guess_label">chances restantes</string>
+    <string name="text_victory">Victoire !</string>
+    <string name="text_defeat">Défaite…</string>
+</resources>
